@@ -2,8 +2,7 @@
 
 This project is an archive of a spam classifier built for my students to use using the Naive Bayes model.
 
-**WARNING: SHIT CODE**
-Use at your own risk and I may or may not offer limited help as I am not experienced.
+**WARNING: SHIT CODE** Use at your own risk and I may or may not offer limited help as I am not experienced.
 
 ## Dependencies
 
