@@ -60,3 +60,10 @@ class SpamClassifier:
     def test(self):
         predicted = self.__clf.predict(self.__X_test_tfidf)
         print(metrics.classification_report(self.__y_test, predicted))
+
+    def predict(self, *txt):
+        corpus = [self.__text_parse_helper(i) for i in txt]
+        X_counts = self.__count_vect.transform(corpus)
+        X_tfidf = self.__tfidf_transformer.transform(X_counts)
+        predicted = self.__clf.predict(X_tfidf)
+        return predicted
