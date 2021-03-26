@@ -25,7 +25,7 @@ On the other hand, the list of stop words is placed in `./data` as well, with th
 
 Read the code yourself, and it should be easy to get this runnung.
 
-## Instuction
+## Instruction
 
 Run
 
